@@ -6,7 +6,7 @@ func downloadImage(atURL url: String) -> (Bool, String) {
     return (false, error)
 }
 
-let result = downloadImage(atURL: "http://example.com/image.png")
+let result = downloadImage(atURL: "http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-Fwsgxo7Tk4K9J9hQVvmN9FFdi0VnJn-0g92FXmVsw9nVCNVCr/")
 result.0
 result.1
 print("Success? \(result.0)")
